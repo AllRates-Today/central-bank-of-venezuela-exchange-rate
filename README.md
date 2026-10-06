@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'VES', { apiKey: 'art_live_...' });
 {
   bank: 'bcv',
   name: 'Central Bank of Venezuela',
-  rate_date: '2026-09-28',   // Central Bank of Venezuela's own publication date
+  rate_date: '2026-10-06',   // Central Bank of Venezuela's own publication date
   source: 'USD',
   target: 'VES',
-  rate: 857.0058,
+  rate: 872.3927,
   rate_type: 'sell',
   derived: false,
   method: 'published',
@@ -113,10 +113,10 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bcv',
   name: 'Central Bank of Venezuela',
-  rate_date: '2026-09-28',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "USD", "quote": "VES", "type": "sell", "value": 857.0058 },
-    { "base": "USD", "quote": "VES", "type": "buy", "value": 854.86329 },
+    { "base": "USD", "quote": "VES", "type": "sell", "value": 872.3927 },
+    { "base": "USD", "quote": "VES", "type": "buy", "value": 870.21172 },
     // … the rest of the published table (21 currencies vs VES)
   ],
   disclaimer: '…'
@@ -156,7 +156,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'central-bank-of-venezuela-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'VES', from: '2026-01-01', to: '2026-09-28' },
+  { source: 'USD', target: 'VES', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -169,11 +169,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'VES',
   from: '2026-01-01',
-  to: '2026-09-28',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-28', rate: 857.0058, rate_type: 'sell', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 872.3927, rate_type: 'sell', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
