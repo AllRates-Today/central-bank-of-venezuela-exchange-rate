@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'VES', { apiKey: 'art_live_...' });
 {
   bank: 'bcv',
   name: 'Central Bank of Venezuela',
-  rate_date: '2026-10-06',   // Central Bank of Venezuela's own publication date
+  rate_date: '2026-10-08',   // Central Bank of Venezuela's own publication date
   source: 'USD',
   target: 'VES',
-  rate: 872.3927,
+  rate: 874.7321,
   rate_type: 'sell',
   derived: false,
   method: 'published',
@@ -113,10 +113,10 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bcv',
   name: 'Central Bank of Venezuela',
-  rate_date: '2026-10-06',
+  rate_date: '2026-10-08',
   rates: [
-    { "base": "USD", "quote": "VES", "type": "sell", "value": 872.3927 },
-    { "base": "USD", "quote": "VES", "type": "buy", "value": 870.21172 },
+    { "base": "USD", "quote": "VES", "type": "sell", "value": 874.7321 },
+    { "base": "USD", "quote": "VES", "type": "buy", "value": 872.54527 },
     // … the rest of the published table (21 currencies vs VES)
   ],
   disclaimer: '…'
@@ -156,7 +156,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'central-bank-of-venezuela-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'VES', from: '2026-01-01', to: '2026-10-06' },
+  { source: 'USD', target: 'VES', from: '2026-01-01', to: '2026-10-08' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -169,11 +169,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'VES',
   from: '2026-01-01',
-  to: '2026-10-06',
+  to: '2026-10-08',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-06', rate: 872.3927, rate_type: 'sell', derived: false, method: 'published' },
+    { date: '2026-10-08', rate: 874.7321, rate_type: 'sell', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -222,6 +222,7 @@ curl "https://allratestoday.com/api/v1/central-bank/bcv/latest?format=xml&api_ke
 
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('bcv')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
+- Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate bcv ...` command
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
