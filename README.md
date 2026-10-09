@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/central-bank-of-venezuela-exchange-rate.svg)](https://github.com/AllRates-Today/central-bank-of-venezuela-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/central-bank-of-venezuela-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/VES today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbcv%3Fsource%3DUSD%26target%3DVES&query=%24.rate&label=USD%2FVES%20published%20by%20Central%20Bank%20of%20Venezuela&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bcv/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fbcv%3Fsource%3DUSD%26target%3DVES&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/bcv/)
 
 **Official Central Bank of Venezuela (Venezuela) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Central Bank of Venezuela itself prints, every business day.**
 
@@ -32,6 +34,61 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Central Bank of Venezuela table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-09** by Central Bank of Venezuela — 42 rates. Updated 2026-10-09.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| ANG | VES | buy | 500.80922753 |
+| ANG | VES | sell | 502.0643885 |
+| ARS | VES | buy | 0.57502394 |
+| ARS | VES | sell | 0.5764651 |
+| BOB | VES | buy | 74.21082189 |
+| BOB | VES | sell | 74.39681393 |
+| BRL | VES | buy | 174.23925269 |
+| BRL | VES | sell | 174.67594254 |
+| CAD | VES | buy | 613.52366665 |
+| CAD | VES | sell | 615.06131995 |
+| CLP | VES | buy | 0.89045118 |
+| CLP | VES | sell | 0.89268288 |
+| CNY | VES | buy | 130.33624414 |
+| CNY | VES | sell | 130.66290139 |
+| COP | VES | buy | 0.27138771 |
+| COP | VES | sell | 0.27206788 |
+| CUC | VES | buy | 873.46137375 |
+| CUC | VES | sell | 875.6505 |
+| DOP | VES | buy | 14.30496845 |
+| DOP | VES | sell | 14.3408205 |
+| EUR | VES | buy | 978.16318862 |
+| EUR | VES | sell | 980.61472543 |
+| INR | VES | buy | 9.02615866 |
+| INR | VES | sell | 9.04878061 |
+| JPY | VES | buy | 5.51810836 |
+| JPY | VES | sell | 5.53193821 |
+| MXN | VES | buy | 48.31759777 |
+| MXN | VES | sell | 48.4386945 |
+| NIO | VES | buy | 24.49085299 |
+| NIO | VES | sell | 24.55223357 |
+| PEN | VES | buy | 253.97225335 |
+| PEN | VES | sell | 254.60877529 |
+| RUB | VES | buy | 10.24046368 |
+| RUB | VES | sell | 10.266129 |
+| TRY | VES | buy | 17.7490952 |
+| TRY | VES | sell | 17.79357915 |
+| TTD | VES | buy | 129.81709971 |
+| TTD | VES | sell | 130.14245585 |
+| USD | VES | buy | 873.46137375 |
+| USD | VES | sell | 875.6505 |
+| UYU | VES | buy | 21.75495326 |
+| UYU | VES | sell | 21.80947696 |
+
+Source: [Official rates published by BCV, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bcv/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
