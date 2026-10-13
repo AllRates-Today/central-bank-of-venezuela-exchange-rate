@@ -42,52 +42,52 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-09** by Central Bank of Venezuela — 42 rates. Updated 2026-10-12.
+Published **2026-10-13** by Central Bank of Venezuela — 42 rates. Updated 2026-10-13.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| ANG | VES | buy | 500.80922753 |
-| ANG | VES | sell | 502.0643885 |
-| ARS | VES | buy | 0.57502394 |
-| ARS | VES | sell | 0.5764651 |
-| BOB | VES | buy | 74.21082189 |
-| BOB | VES | sell | 74.39681393 |
-| BRL | VES | buy | 174.23925269 |
-| BRL | VES | sell | 174.67594254 |
-| CAD | VES | buy | 613.52366665 |
-| CAD | VES | sell | 615.06131995 |
-| CLP | VES | buy | 0.89045118 |
-| CLP | VES | sell | 0.89268288 |
-| CNY | VES | buy | 130.33624414 |
-| CNY | VES | sell | 130.66290139 |
-| COP | VES | buy | 0.27138771 |
-| COP | VES | sell | 0.27206788 |
-| CUC | VES | buy | 873.46137375 |
-| CUC | VES | sell | 875.6505 |
-| DOP | VES | buy | 14.30496845 |
-| DOP | VES | sell | 14.3408205 |
-| EUR | VES | buy | 978.16318862 |
-| EUR | VES | sell | 980.61472543 |
-| INR | VES | buy | 9.02615866 |
-| INR | VES | sell | 9.04878061 |
-| JPY | VES | buy | 5.51810836 |
-| JPY | VES | sell | 5.53193821 |
-| MXN | VES | buy | 48.31759777 |
-| MXN | VES | sell | 48.4386945 |
-| NIO | VES | buy | 24.49085299 |
-| NIO | VES | sell | 24.55223357 |
-| PEN | VES | buy | 253.97225335 |
-| PEN | VES | sell | 254.60877529 |
-| RUB | VES | buy | 10.24046368 |
-| RUB | VES | sell | 10.266129 |
-| TRY | VES | buy | 17.7490952 |
-| TRY | VES | sell | 17.79357915 |
-| TTD | VES | buy | 129.81709971 |
-| TTD | VES | sell | 130.14245585 |
-| USD | VES | buy | 873.46137375 |
-| USD | VES | sell | 875.6505 |
-| UYU | VES | buy | 21.75495326 |
-| UYU | VES | sell | 21.80947696 |
+| ANG | VES | buy | 501.46528639 |
+| ANG | VES | sell | 502.72209162 |
+| ARS | VES | buy | 0.57767873 |
+| ARS | VES | sell | 0.57912655 |
+| BOB | VES | buy | 76.15464239 |
+| BOB | VES | sell | 76.34550615 |
+| BRL | VES | buy | 175.26463989 |
+| BRL | VES | sell | 175.70389964 |
+| CAD | VES | buy | 612.76070257 |
+| CAD | VES | sell | 614.29644368 |
+| CLP | VES | buy | 0.8947738 |
+| CLP | VES | sell | 0.89701634 |
+| CNY | VES | buy | 130.70396861 |
+| CNY | VES | sell | 131.03154748 |
+| COP | VES | buy | 0.27394775 |
+| COP | VES | sell | 0.27463434 |
+| CUC | VES | buy | 874.605606 |
+| CUC | VES | sell | 876.7976 |
+| DOP | VES | buy | 14.29795007 |
+| DOP | VES | sell | 14.33378453 |
+| EUR | VES | buy | 979.54953266 |
+| EUR | VES | sell | 982.00454402 |
+| INR | VES | buy | 9.04265514 |
+| INR | VES | sell | 9.06531844 |
+| JPY | VES | buy | 5.52223215 |
+| JPY | VES | sell | 5.53607233 |
+| MXN | VES | buy | 47.60017448 |
+| MXN | VES | sell | 47.71947316 |
+| NIO | VES | buy | 24.53284131 |
+| NIO | VES | sell | 24.59432713 |
+| PEN | VES | buy | 253.26661628 |
+| PEN | VES | sell | 253.9013697 |
+| RUB | VES | buy | 10.31372102 |
+| RUB | VES | sell | 10.33956995 |
+| TRY | VES | buy | 17.72537809 |
+| TRY | VES | sell | 17.7698026 |
+| TTD | VES | buy | 129.55008902 |
+| TTD | VES | sell | 129.87477596 |
+| USD | VES | buy | 874.605606 |
+| USD | VES | sell | 876.7976 |
+| UYU | VES | buy | 21.75094767 |
+| UYU | VES | sell | 21.80546132 |
 
 Source: [Official rates published by BCV, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bcv/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
