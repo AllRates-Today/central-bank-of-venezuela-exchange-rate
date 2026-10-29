@@ -47,52 +47,52 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Central Bank of Venezuela — 42 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Central Bank of Venezuela — 42 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| ANG | VES | buy | 507.93991413 |
-| ANG | VES | sell | 509.2129465 |
-| ARS | VES | buy | 0.57619382 |
-| ARS | VES | sell | 0.57763791 |
-| BOB | VES | buy | 74.00985833 |
-| BOB | VES | sell | 74.1953467 |
-| BRL | VES | buy | 166.14741265 |
-| BRL | VES | sell | 166.5638222 |
-| CAD | VES | buy | 631.15680584 |
-| CAD | VES | sell | 632.73865247 |
-| CLP | VES | buy | 0.90195276 |
-| CLP | VES | sell | 0.90421329 |
-| CNY | VES | buy | 132.88802283 |
-| CNY | VES | sell | 133.22107552 |
-| COP | VES | buy | 0.28085407 |
-| COP | VES | sell | 0.28155796 |
-| CUC | VES | buy | 885.89800425 |
-| CUC | VES | sell | 888.1183 |
-| DOP | VES | buy | 14.80197166 |
-| DOP | VES | sell | 14.83906934 |
-| EUR | VES | buy | 987.24473593 |
-| EUR | VES | sell | 989.71903352 |
-| INR | VES | buy | 9.31494668 |
-| INR | VES | sell | 9.33829241 |
-| JPY | VES | buy | 5.61256195 |
-| JPY | VES | sell | 5.62662852 |
-| MXN | VES | buy | 47.55988641 |
-| MXN | VES | sell | 47.67908412 |
-| NIO | VES | buy | 24.86996519 |
-| NIO | VES | sell | 24.93229593 |
-| PEN | VES | buy | 257.19951348 |
-| PEN | VES | sell | 257.84412379 |
-| RUB | VES | buy | 10.99811302 |
-| RUB | VES | sell | 11.02567721 |
-| TRY | VES | buy | 17.79472653 |
-| TRY | VES | sell | 17.83932484 |
-| TTD | VES | buy | 131.95769781 |
-| TTD | VES | sell | 132.28841885 |
-| USD | VES | buy | 885.89800425 |
-| USD | VES | sell | 888.1183 |
-| UYU | VES | buy | 22.02959179 |
-| UYU | VES | sell | 22.08480379 |
+| ANG | VES | buy | 508.38178587 |
+| ANG | VES | sell | 509.65592569 |
+| ARS | VES | buy | 0.5770704 |
+| ARS | VES | sell | 0.57851669 |
+| BOB | VES | buy | 74.38495576 |
+| BOB | VES | sell | 74.57138422 |
+| BRL | VES | buy | 165.09368848 |
+| BRL | VES | sell | 165.50745712 |
+| CAD | VES | buy | 630.93271526 |
+| CAD | VES | sell | 632.51400027 |
+| CLP | VES | buy | 0.90471779 |
+| CLP | VES | sell | 0.90698525 |
+| CNY | VES | buy | 133.02358003 |
+| CNY | VES | sell | 133.35697247 |
+| COP | VES | buy | 0.28028091 |
+| COP | VES | sell | 0.28098337 |
+| CUC | VES | buy | 886.66867275 |
+| CUC | VES | sell | 888.8909 |
+| DOP | VES | buy | 14.74586184 |
+| DOP | VES | sell | 14.78281889 |
+| EUR | VES | buy | 986.91543289 |
+| EUR | VES | sell | 989.38890515 |
+| INR | VES | buy | 9.31276833 |
+| INR | VES | sell | 9.3361086 |
+| JPY | VES | buy | 5.60515761 |
+| JPY | VES | sell | 5.61920562 |
+| MXN | VES | buy | 47.41214101 |
+| MXN | VES | sell | 47.53096843 |
+| NIO | VES | buy | 24.89097141 |
+| NIO | VES | sell | 24.95335479 |
+| PEN | VES | buy | 256.91605028 |
+| PEN | VES | sell | 257.55995016 |
+| RUB | VES | buy | 11.04613294 |
+| RUB | VES | sell | 11.07381748 |
+| TRY | VES | buy | 17.79144473 |
+| TRY | VES | sell | 17.83603481 |
+| TTD | VES | buy | 131.34859236 |
+| TTD | VES | sell | 131.67778683 |
+| USD | VES | buy | 886.66867275 |
+| USD | VES | sell | 888.8909 |
+| UYU | VES | buy | 22.05094933 |
+| UYU | VES | sell | 22.10621487 |
 
 </details>
 
@@ -258,6 +258,7 @@ The Central Bank of Venezuela publishes the official reference exchange rate —
 
 - Publisher's own page: [Tipo de cambio de referencia](https://www.bcv.org.ve/estadisticas/tipo-de-cambio-de-referencia-0) · [www.bcv.org.ve](https://www.bcv.org.ve)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Central Bank of Venezuela rates page](https://allratestoday.com/central-bank-rates-api/bcv/)
+- In the API: usually by **02:45 UTC** (measured over the last 10 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
