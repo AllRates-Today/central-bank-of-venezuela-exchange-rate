@@ -32,52 +32,52 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-18 by Central Bank of Venezuela — 42 rates. Updated 2026-11-18.</summary>
+<summary>Table as text: published 2026-11-19 by Central Bank of Venezuela — 42 rates. Updated 2026-11-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| ANG | VES | buy | 524.25668295 |
-| ANG | VES | sell | 525.57060948 |
-| ARS | VES | buy | 0.58914695 |
-| ARS | VES | sell | 0.59062351 |
-| BOB | VES | buy | 78.55292789 |
-| BOB | VES | sell | 78.7498024 |
-| BRL | VES | buy | 158.40137217 |
-| BRL | VES | sell | 158.79836809 |
-| CAD | VES | buy | 639.66034303 |
-| CAD | VES | sell | 641.26350179 |
-| CLP | VES | buy | 0.91638128 |
-| CLP | VES | sell | 0.91867797 |
-| CNY | VES | buy | 137.17947621 |
-| CNY | VES | sell | 137.52328442 |
-| COP | VES | buy | 0.27748963 |
-| COP | VES | sell | 0.27818509 |
-| CUC | VES | buy | 914.35608075 |
-| CUC | VES | sell | 916.6477 |
-| DOP | VES | buy | 15.17099851 |
-| DOP | VES | sell | 15.20902107 |
-| EUR | VES | buy | 1004.8682 |
-| EUR | VES | sell | 1007.3867 |
-| INR | VES | buy | 9.78339482 |
-| INR | VES | sell | 9.80791461 |
-| JPY | VES | buy | 5.7369922 |
-| JPY | VES | sell | 5.75137063 |
-| MXN | VES | buy | 49.49212281 |
-| MXN | VES | sell | 49.61616322 |
-| NIO | VES | buy | 25.66094938 |
-| NIO | VES | sell | 25.72526254 |
-| PEN | VES | buy | 268.06100285 |
-| PEN | VES | sell | 268.73283494 |
-| RUB | VES | buy | 11.14399751 |
-| RUB | VES | sell | 11.17192733 |
-| TRY | VES | buy | 18.16469159 |
-| TRY | VES | sell | 18.21021713 |
-| TTD | VES | buy | 136.4344028 |
-| TTD | VES | sell | 136.77634366 |
-| USD | VES | buy | 914.35608075 |
-| USD | VES | sell | 916.6477 |
-| UYU | VES | buy | 22.51609448 |
-| UYU | VES | sell | 22.57252579 |
+| ANG | VES | buy | 524.90147482 |
+| ANG | VES | sell | 526.21701737 |
+| ARS | VES | buy | 0.5879773 |
+| ARS | VES | sell | 0.58945093 |
+| BOB | VES | buy | 78.64954143 |
+| BOB | VES | sell | 78.84665807 |
+| BRL | VES | buy | 158.44796674 |
+| BRL | VES | sell | 158.84507944 |
+| CAD | VES | buy | 639.48076435 |
+| CAD | VES | sell | 641.08347303 |
+| CLP | VES | buy | 0.91505973 |
+| CLP | VES | sell | 0.91735311 |
+| CNY | VES | buy | 137.31523357 |
+| CNY | VES | sell | 137.65938203 |
+| COP | VES | buy | 0.27641324 |
+| COP | VES | sell | 0.277106 |
+| CUC | VES | buy | 915.48066225 |
+| CUC | VES | sell | 917.7751 |
+| DOP | VES | buy | 15.22249188 |
+| DOP | VES | sell | 15.26064349 |
+| EUR | VES | buy | 1004.8773 |
+| EUR | VES | sell | 1007.3958 |
+| INR | VES | buy | 9.79857285 |
+| INR | VES | sell | 9.82313068 |
+| JPY | VES | buy | 5.74888167 |
+| JPY | VES | sell | 5.76328989 |
+| MXN | VES | buy | 49.23315455 |
+| MXN | VES | sell | 49.35654591 |
+| NIO | VES | buy | 25.6934476 |
+| NIO | VES | sell | 25.7578422 |
+| PEN | VES | buy | 268.45365733 |
+| PEN | VES | sell | 269.12647352 |
+| RUB | VES | buy | 11.11067414 |
+| RUB | VES | sell | 11.13852044 |
+| TRY | VES | buy | 18.14933645 |
+| TRY | VES | sell | 18.19482351 |
+| TTD | VES | buy | 136.60220571 |
+| TTD | VES | sell | 136.94456713 |
+| USD | VES | buy | 915.48066225 |
+| USD | VES | sell | 917.7751 |
+| UYU | VES | buy | 22.54378739 |
+| UYU | VES | sell | 22.60028811 |
 
 </details>
 
